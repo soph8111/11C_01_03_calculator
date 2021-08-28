@@ -176,4 +176,7 @@ function scrollList() {
 
 function clearList() {
   console.log("clearList");
+  document.querySelector("#clear").addEventListener("click", () => {
+    document.getElementById("results").innerHTML = "<li></li>";
+  });
 }
