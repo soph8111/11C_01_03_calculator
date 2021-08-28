@@ -101,6 +101,9 @@ function checkRounded() {
 
 function readDecimals() {
   console.log("readDecimals");
+
+  console.log("Decimal is: " + decimals.value);
+
   roundResult();
 }
 
