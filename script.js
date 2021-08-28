@@ -152,6 +152,7 @@ function roundResult() {
 
 function writeResult() {
   console.log("writeResult");
+  document.querySelector("#results>li").innerHTML = result;
   appendResult();
 }
 
