@@ -39,7 +39,16 @@ function readSecondNumber() {
 
 function readOperator() {
   console.log("readOperator", operator.value);
-  caluatePlus();
+
+  if (operator.value === "add") {
+    caluatePlus();
+  } else if (operator.value === "sub") {
+    caluateMinus();
+  } else if (operator.value === "mul") {
+    caluateMultiply();
+  } else {
+    calcuateDivide();
+  }
 }
 
 function caluatePlus() {
