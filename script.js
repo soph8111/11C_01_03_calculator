@@ -108,6 +108,44 @@ function readDecimals() {
 }
 
 function roundResult() {
+  if (decimals.value === "0") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(0));
+    result = result.toFixed(0);
+  } else if (decimals.value === "1") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(1));
+    result = result.toFixed(1);
+  } else if (decimals.value === "2") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(2));
+    result = result.toFixed(2);
+  } else if (decimals.value === "3") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(3));
+    result = result.toFixed(3);
+  } else if (decimals.value === "4") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(4));
+    result = result.toFixed(4);
+  } else if (decimals.value === "5") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(5));
+    result = result.toFixed(5);
+  } else if (decimals.value === "6") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(6));
+    result = result.toFixed(6);
+  } else if (decimals.value === "7") {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(7));
+    result = result.toFixed(7);
+  } else {
+    console.log("Decimal is: " + decimals.value);
+    console.log(result.toFixed(8));
+    result = result.toFixed(8);
+  }
+
   console.log("roundResult");
   writeResult();
 }
