@@ -53,6 +53,10 @@ function readOperator() {
 
 function caluatePlus() {
   console.log("caluatePlus");
+
+  result = parseFloat(firstNumber.value) + parseFloat(secondNumber.value);
+  console.log(result);
+
   checkRounded();
 }
 
