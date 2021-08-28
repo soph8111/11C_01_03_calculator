@@ -23,16 +23,16 @@ function clickCalulate() {
   //     console.log("Der er ikke tal at regne på");
   //   }
   // }
-  readFirstNumer();
+  readFirstNumber();
 }
 
-function readFirstNumer() {
+function readFirstNumber() {
   console.log("First number: " + firstNumber.value);
 
-  readSecondNumer();
+  readSecondNumber();
 }
 
-function readSecondNumer() {
+function readSecondNumber() {
   console.log("Second number: " + secondNumber.value);
   readOperator();
 }
