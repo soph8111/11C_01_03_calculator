@@ -17,6 +17,12 @@ function settingUp() {
 function clickCalulate() {
   console.log("clickCalulate");
 
+  //   if (firstNumber === true && secondNumber === true) {
+  //     console.log("Der er tal at regne på");
+  //   } else {
+  //     console.log("Der er ikke tal at regne på");
+  //   }
+  // }
   readFirstNumer();
 }
 
