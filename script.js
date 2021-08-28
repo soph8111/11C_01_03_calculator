@@ -1,3 +1,14 @@
+"use strict";
+
+window.addEventListener("DOMContentLoaded", settingUp);
+
+let firstNumber = document.querySelector("#firstnumber");
+let secondNumber = document.querySelector("#secondnumber");
+const calculate = document.querySelector("#calculate");
+const operator = document.querySelector("#operator");
+let result = document.querySelector("#results>li");
+let decimals = document.querySelector("#decimals");
+
 function settingUp() {
   console.log("settingUp");
   calculate.addEventListener("click", clickCalulate);
