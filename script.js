@@ -169,6 +169,8 @@ function appendResult() {
 
 function scrollList() {
   console.log("scrollList");
+  document.getElementById("results").scrollTop = document.getElementById("results").scrollHeight;
+
   clearList();
 }
 
