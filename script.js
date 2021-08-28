@@ -158,6 +158,12 @@ function writeResult() {
 
 function appendResult() {
   console.log("appendResult");
+
+  let li = document.createElement("li");
+  let print = document.createTextNode(result);
+  li.appendChild(print);
+  document.getElementById("results").appendChild(li);
+
   scrollList();
 }
 
