@@ -89,7 +89,14 @@ function calcuateDivide() {
 
 function checkRounded() {
   console.log("checkRounded");
-  readDecimals();
+
+  if (document.querySelector("#doround").checked === true) {
+    console.log("it's checked");
+    readDecimals();
+  } else {
+    console.log("it's not checked");
+    writeResult();
+  }
 }
 
 function readDecimals() {
