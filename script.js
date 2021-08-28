@@ -62,16 +62,28 @@ function caluatePlus() {
 
 function caluateMinus() {
   console.log("caluateMinus");
+
+  result = parseFloat(firstNumber.value) - parseFloat(secondNumber.value);
+  console.log(result);
+
   checkRounded();
 }
 
 function caluateMultiply() {
   console.log("caluateMultiply");
+
+  result = parseFloat(firstNumber.value) * parseFloat(secondNumber.value);
+  console.log(result);
+
   checkRounded();
 }
 
 function calcuateDivide() {
   console.log("calcuateDivide");
+
+  result = parseFloat(firstNumber.value) / parseFloat(secondNumber.value);
+  console.log(result);
+
   checkRounded();
 }
 
